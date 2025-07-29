@@ -9,7 +9,7 @@ if (Number.isInteger(numero) && numero > 0 && numero <= 50) {
         let linea = "";
 
         for (let j = 1; j <= i; j++) {
-            linea = linea + j + "++";
+            linea = linea + j + "+++++";
         }
 
         console.log(linea);
