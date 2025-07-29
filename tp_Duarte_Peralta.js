@@ -8,8 +8,8 @@ if (Number.isInteger(numero) && numero > 0 && numero <= 50) {
     for (let i = 1; i <= numero; i++) {
         let linea = "";
 
-        for (let j = 1; j <= i; j++) { 
-            linea = linea + j + "*" + j + "=" + (j * j) + " " + (j < i ? " " : "");
+        for (let j = 1; j <= i; j++) {
+            linea = linea + j + "+++++";
         }
 
         console.log(linea);
